@@ -99,7 +99,7 @@ const MazeScene = ({ data, ghostIndex, keyIndex }: MazeSceneProps) => {
         stack.pop()
       }
 
-      traversalRef.current = setTimeout(moveGhost, 700) as unknown as number
+      traversalRef.current = setTimeout(moveGhost, 300) as unknown as number
     }
 
     moveGhost()
