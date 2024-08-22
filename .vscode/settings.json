@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.postcss": "tailwindcss"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "cSpell.words": [
+    "Chelpis",
+    "lucide",
+    "Parens"
+  ]
+}
